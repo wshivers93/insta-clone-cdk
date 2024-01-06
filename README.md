@@ -1,3 +1,5 @@
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/wshivers93/insta-clone-cdk)
+
 # Welcome to your CDK Go project!
 
 This is a blank project for CDK development with Go.
