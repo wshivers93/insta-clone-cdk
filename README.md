@@ -12,3 +12,7 @@ The `cdk.json` file tells the CDK toolkit how to execute your app.
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
  * `go test`         run unit tests
+
+ ## Build
+ * `make build` will build the app
+   * may need to use the -B argument if make thinks the build target is up to date

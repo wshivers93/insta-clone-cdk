@@ -20,3 +20,6 @@ cdk.out
 
 # executable file
 build
+
+#app config file
+config.json
