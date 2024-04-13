@@ -21,6 +21,7 @@ func StorageStack(scope constructs.Construct, id string, props awscdk.StackProps
 			Type: awsdynamodb.AttributeType_STRING,
 		},
 		Encryption: awsdynamodb.TableEncryption_AWS_MANAGED,
+		TableName: jsii.String("Users"),
 	})
 
 	awsdynamodb.NewTable(stack, jsii.String("PostsTable"), &awsdynamodb.TableProps{
@@ -32,6 +33,7 @@ func StorageStack(scope constructs.Construct, id string, props awscdk.StackProps
 			Name: jsii.String("postId"),
 			Type: awsdynamodb.AttributeType_STRING,
 		},
+		TableName: jsii.String("Posts"),
 	})
 
 	return stack
